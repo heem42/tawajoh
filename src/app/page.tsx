@@ -8,7 +8,7 @@ import { useState } from "react";
 
 export default function Home() {
   const date = new Date();
-  const [todos, setTodos] = useState<Todo[]>([
+  const [todos,] = useState<Todo[]>([
     {
       title: "Update Orders Board",
       dueBy: new Date(),
